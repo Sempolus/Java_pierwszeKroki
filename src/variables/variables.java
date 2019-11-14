@@ -8,5 +8,13 @@ public class variables {
 
         double result = 0.01;
         System.out.println("Wynik: " + result);
+
+        final byte HOURS_IN_DAY = 24;
+        final boolean DECISION;
+
+        //HOURS_IN_DAY =23
+
+        //DECISION = true;
+        DECISION = false;
     }
 }
