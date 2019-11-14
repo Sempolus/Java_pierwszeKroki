@@ -3,5 +3,5 @@
 # ignoruj plik: projekt1.iml
 Java_pierwszeKroki.iml
 
-# ignoruj katalog
+# ignoruj katalog z metadanymi
 .idea/
