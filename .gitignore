@@ -1,0 +1,7 @@
+# Ignoruje wybrane pliki lub katalogi
+
+# ignoruj plik: projekt1.iml
+Java_pierwszeKroki.iml
+
+# ignoruj katalog
+.idea/
