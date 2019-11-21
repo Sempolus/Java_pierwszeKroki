@@ -11,7 +11,7 @@ public class InputData {
         System.out.println("Wprowadź liczbę całkowitą: ");
         int number = scanner.nextInt(); //ENTER -> \n
         System.out.println("Wprowadź liczbę zmienno przecinkową: ");
-        double number2 = scanner.nextInt(); //ENTER -> \n
+        double number2 = scanner.nextDouble(); //ENTER -> \n
         // aby skonsumowac enter wykonujemy funkcje next line
         String enter = scanner.nextLine();
         //wprowadź napis

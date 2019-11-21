@@ -18,6 +18,7 @@ public class MultiArray {
         // tablice wielowymiarowe nieregularne
 
         int[][] numbers = {
+                               {0},
                                {1, 1, 1},
                                {2, 2, 2, 2, 2},
                                {3, 3, 3, 3, 3, 3, 3}
@@ -25,7 +26,7 @@ public class MultiArray {
 
         System.out.println();
         for (int i = 0 ; i < numbers.length ; i++) {
-            for (int j = 0; j < numbers[i].length; j++) {
+            for (int j = 0; j < numbers[i].length; j++) {  //  numbers[i].length -> określamy "j" pytajac o długosc wiersza
                 System.out.printf("%3d", numbers[i][j]);
             }
             System.out.println(" ");
