@@ -11,7 +11,7 @@ public class Main {
             mammal.setAge(10);
             System.out.println(mammal);
 
-            Reptile reptile = new Reptile():
+            Reptile reptile = new Reptile();
 //            System.out.println(reptile.name); // protected nie jest widoczny poza pakietem reptile
 //            System.out.println(reprile.getName());
 
@@ -19,5 +19,5 @@ public class Main {
 //            animal.speed; //private nie jest dostępny poza pakietami animal
 //            animal.getSpeed();
         }
-    }
+    
 }

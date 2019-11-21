@@ -2,8 +2,8 @@ package staticClass;
 
 public class Main {
     public static void main(String[] args) {
-        User user1 = new User("X", "X");
-        System.out.println(user1.getLogin());
+        User user = new User("X", "X");
+        System.out.println(user.getLogin());
 
         //Odwołanie do składowej statycznej
         // 1. Odwołanie nie wymaga utorzenie obiektu
@@ -19,7 +19,7 @@ public class Main {
         User.incrementGlobalId();
         System.out.println(User.globalId);
 
-        User user3 = new
+        User user3 = new User ("U3", "P3");
 
         // user1.g
     }
